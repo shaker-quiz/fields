@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "@shakerquiz/fields",
+  "version": "0.0.0",
+  "author": "yurkimus <yurkimus@gmail.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaker-quiz/fields.git"
+  },
+  "scripts": {
+    "prepublishOnly": "node ./generate.js"
+  },
+  "files": [
+    "source"
+  ],
+  "exports": "./source/index.js",
+  "devDependencies": {
+    "@shakerquiz/utilities": "0.5.219"
+  }
+}
