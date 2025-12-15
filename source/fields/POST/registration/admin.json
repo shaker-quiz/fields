@@ -1,5 +1,9 @@
 [
   {
+    "name": "event_id",
+    "kind": "autocomplete"
+  },
+  {
     "name": "email",
     "kind": "email"
   },
