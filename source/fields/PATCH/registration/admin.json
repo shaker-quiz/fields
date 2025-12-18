@@ -20,6 +20,14 @@
     "kind": "email"
   },
   {
+    "name": "channel",
+    "kind": "autocomplete"
+  },
+  {
+    "name": "confirmed_channel",
+    "kind": "autocomplete"
+  },
+  {
     "name": "vkontakte",
     "kind": "string"
   },
