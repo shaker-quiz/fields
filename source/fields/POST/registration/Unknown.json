@@ -1,54 +1,57 @@
-[
-  {
-    "name": "ads_from",
-    "kind": "autocomplete"
-  },
-  {
-    "name": "comment",
-    "kind": "text"
-  },
-  {
-    "name": "email",
-    "kind": "email"
-  },
-  {
-    "name": "human_name",
-    "kind": "string"
-  },
-  {
-    "name": "team_name",
-    "kind": "string"
-  },
-  {
-    "name": "is_alone",
-    "kind": "checkbox"
-  },
-  {
-    "name": "is_birthday",
-    "kind": "checkbox"
-  },
-  {
-    "name": "celebrant",
-    "kind": "string"
-  },
-  {
-    "name": "is_extensible",
-    "kind": "checkbox"
-  },
-  {
-    "name": "is_first",
-    "kind": "checkbox"
-  },
-  {
-    "name": "people_count",
-    "kind": "number"
-  },
-  {
-    "name": "phone",
-    "kind": "phone"
-  },
-  {
-    "name": "promocode",
-    "kind": "string"
-  }
-]
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "ads_from",
+      "kind": "autocomplete"
+    },
+    {
+      "name": "comment",
+      "kind": "text"
+    },
+    {
+      "name": "email",
+      "kind": "email"
+    },
+    {
+      "name": "human_name",
+      "kind": "string"
+    },
+    {
+      "name": "team_name",
+      "kind": "string"
+    },
+    {
+      "name": "is_alone",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_birthday",
+      "kind": "checkbox"
+    },
+    {
+      "name": "celebrant",
+      "kind": "string"
+    },
+    {
+      "name": "is_extensible",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_first",
+      "kind": "checkbox"
+    },
+    {
+      "name": "people_count",
+      "kind": "number"
+    },
+    {
+      "name": "phone",
+      "kind": "phone"
+    },
+    {
+      "name": "promocode",
+      "kind": "string"
+    }
+  ]
+}

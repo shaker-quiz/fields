@@ -1,22 +1,25 @@
-[
-  {
-    "name": "name",
-    "kind": "string"
-  },
-  {
-    "name": "alias",
-    "kind": "string"
-  },
-  {
-    "name": "country",
-    "kind": "autocomplete"
-  },
-  {
-    "name": "currency_name",
-    "kind": "autocomplete"
-  },
-  {
-    "name": "timezone_name",
-    "kind": "autocomplete"
-  }
-]
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "name",
+      "kind": "string"
+    },
+    {
+      "name": "alias",
+      "kind": "string"
+    },
+    {
+      "name": "country",
+      "kind": "autocomplete"
+    },
+    {
+      "name": "currency_name",
+      "kind": "autocomplete"
+    },
+    {
+      "name": "timezone_name",
+      "kind": "autocomplete"
+    }
+  ]
+}

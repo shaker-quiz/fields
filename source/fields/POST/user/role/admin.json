@@ -1,6 +1,9 @@
-[
-  {
-    "name": "id",
-    "kind": "autocomplete"
-  }
-]
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "id",
+      "kind": "autocomplete"
+    }
+  ]
+}

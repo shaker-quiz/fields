@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "id",
+      "name": "currency_name",
       "kind": "autocomplete"
     }
   ]
