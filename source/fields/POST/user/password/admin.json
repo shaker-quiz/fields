@@ -1,6 +1,9 @@
-[
-  {
-    "name": "value",
-    "kind": "password"
-  }
-]
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "value",
+      "kind": "password"
+    }
+  ]
+}

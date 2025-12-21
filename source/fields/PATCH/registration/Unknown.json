@@ -1,34 +1,37 @@
-[
-  {
-    "name": "team_name",
-    "kind": "string"
-  },
-  {
-    "name": "human_name",
-    "kind": "string"
-  },
-  {
-    "name": "people_count",
-    "kind": "number"
-  },
-  {
-    "name": "is_alone",
-    "kind": "checkbox"
-  },
-  {
-    "name": "is_birthday",
-    "kind": "checkbox"
-  },
-  {
-    "name": "celebrant",
-    "kind": "string"
-  },
-  {
-    "name": "is_extensible",
-    "kind": "checkbox"
-  },
-  {
-    "name": "is_first",
-    "kind": "checkbox"
-  }
-]
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "team_name",
+      "kind": "string"
+    },
+    {
+      "name": "human_name",
+      "kind": "string"
+    },
+    {
+      "name": "people_count",
+      "kind": "number"
+    },
+    {
+      "name": "is_alone",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_birthday",
+      "kind": "checkbox"
+    },
+    {
+      "name": "celebrant",
+      "kind": "string"
+    },
+    {
+      "name": "is_extensible",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_first",
+      "kind": "checkbox"
+    }
+  ]
+}

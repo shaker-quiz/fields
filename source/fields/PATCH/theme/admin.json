@@ -1,22 +1,25 @@
-[
-  {
-    "name": "name",
-    "kind": "string"
-  },
-  {
-    "name": "alias",
-    "kind": "string"
-  },
-  {
-    "name": "subtitle",
-    "kind": "string"
-  },
-  {
-    "name": "description",
-    "kind": "text"
-  },
-  {
-    "name": "status",
-    "kind": "autocomplete"
-  }
-]
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "name",
+      "kind": "string"
+    },
+    {
+      "name": "alias",
+      "kind": "string"
+    },
+    {
+      "name": "subtitle",
+      "kind": "string"
+    },
+    {
+      "name": "description",
+      "kind": "text"
+    },
+    {
+      "name": "status",
+      "kind": "autocomplete"
+    }
+  ]
+}

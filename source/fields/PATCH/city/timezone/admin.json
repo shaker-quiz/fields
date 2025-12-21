@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "id",
+      "name": "timezone_name",
       "kind": "autocomplete"
     }
   ]

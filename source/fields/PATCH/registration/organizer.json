@@ -1,4 +1,6 @@
-[
+{
+  "state": "Interactive",
+  "fields": [
   {
     "name": "team_name",
     "kind": "string"
@@ -63,4 +65,4 @@
     "name": "is_first",
     "kind": "checkbox"
   }
-]
+]}
