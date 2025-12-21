@@ -1,0 +1,13 @@
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "email",
+      "kind": "string"
+    },
+    {
+      "name": "password",
+      "kind": "password"
+    }
+  ]
+}
