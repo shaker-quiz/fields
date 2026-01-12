@@ -1,7 +1,7 @@
 {
   "type": "module",
   "name": "@shakerquiz/forms",
-  "version": "0.0.9",
+  "version": "0.0.12",
   "author": "yurkimus <yurkimus@gmail.com>",
   "license": "ISC",
   "repository": {
@@ -16,6 +16,6 @@
   ],
   "exports": "./source/index.js",
   "devDependencies": {
-    "@shakerquiz/utilities": "0.5.219"
+    "@shakerquiz/utilities": "0.6.8"
   }
 }
