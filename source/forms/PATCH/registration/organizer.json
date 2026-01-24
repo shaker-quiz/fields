@@ -23,13 +23,11 @@
   },
   {
     "name": "channel",
-    "kind": "autocomplete",
-    "items": "Static"
+    "kind": "static-autocomplete"
   },
   {
     "name": "confirmed_channel",
-    "kind": "autocomplete",
-    "items": "Static"
+    "kind": "static-autocomplete"
   },
   {
     "name": "vkontakte",
@@ -41,13 +39,11 @@
   },
   {
     "name": "status",
-    "kind": "autocomplete",
-    "items": "Static"
+    "kind": "static-autocomplete"
   },
   {
     "name": "lineup",
-    "kind": "autocomplete",
-    "items": "Static"
+    "kind": "static-autocomplete"
   },
   {
     "name": "is_alone",

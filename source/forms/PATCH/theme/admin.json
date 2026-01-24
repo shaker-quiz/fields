@@ -19,8 +19,7 @@
     },
     {
       "name": "status",
-      "kind": "autocomplete",
-      "items": "Static"
+      "kind": "static-autocomplete"
     }
   ]
 }
