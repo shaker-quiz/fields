@@ -3,8 +3,7 @@
   "fields": [
     {
       "name": "id",
-      "kind": "autocomplete",
-      "items": "Dynamic"
+      "kind": "dynamic-autocomplete"
     }
   ]
 }

@@ -3,13 +3,11 @@
   "fields": [
     {
       "name": "location_id",
-      "kind": "autocomplete",
-      "items": "Dynamic"
+      "kind": "dynamic-autocomplete"
     },
     {
       "name": "theme_id",
-      "kind": "autocomplete",
-      "items": "Dynamic"
+      "kind": "dynamic-autocomplete"
     },
     {
       "name": "number",
