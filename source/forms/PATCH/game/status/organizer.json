@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "status",
+      "name": "value",
       "kind": "static-autocomplete"
     }
   ]
