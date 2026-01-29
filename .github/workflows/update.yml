@@ -8,6 +8,11 @@ on:
         description: "@shakerquiz/utilities"
         required: false
         default: false
+      contracts:
+        type: boolean
+        description: "@shakerquiz/contracts"
+        required: false
+        default: false
 
 permissions:
   contents: write
@@ -32,6 +37,10 @@ jobs:
       - name: "@shakerquiz/utilities"
         if: ${{ inputs.utilities }}
         run: npm i @shakerquiz/utilities@aquamarine --save-exact --prefer-online --save-dev
+
+      - name: "@shakerquiz/contracts"
+        if: ${{ inputs.contracts }}
+        run: npm i @shakerquiz/contracts@latest --save-exact --prefer-online --save-dev
 
       - name: Commit changes
         run: |
