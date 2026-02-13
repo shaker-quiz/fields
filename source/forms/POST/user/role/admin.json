@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "role_id",
+      "name": "id",
       "kind": "autocomplete-dynamic"
     }
   ]
