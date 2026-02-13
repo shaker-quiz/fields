@@ -12,11 +12,11 @@
     },
     {
       "name": "affilation",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "chatapp_version",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "vk_group_id",
@@ -24,6 +24,22 @@
     },
     {
       "name": "telegram_channel_id",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_line",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_user",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_tag",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_category",
       "kind": "string"
     }
   ]

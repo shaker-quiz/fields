@@ -27,7 +27,7 @@
     },
     {
       "name": "city_id",
-      "kind": "dynamic-autocomplete"
+      "kind": "autocomplete-dynamic"
     }
   ]
 }

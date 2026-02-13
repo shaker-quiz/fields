@@ -11,15 +11,15 @@
     },
     {
       "name": "country",
-      "kind": "dynamic-autocomplete"
+      "kind": "autocomplete-dynamic"
     },
     {
       "name": "currency_name",
-      "kind": "dynamic-autocomplete"
+      "kind": "autocomplete-dynamic"
     },
     {
       "name": "timezone_name",
-      "kind": "dynamic-autocomplete"
+      "kind": "autocomplete-dynamic"
     }
   ]
 }

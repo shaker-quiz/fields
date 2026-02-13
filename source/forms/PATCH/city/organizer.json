@@ -12,7 +12,7 @@
     },
     {
       "name": "affilation",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     }
   ]
 }

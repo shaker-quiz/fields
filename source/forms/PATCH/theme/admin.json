@@ -19,7 +19,7 @@
     },
     {
       "name": "status",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     }
   ]
 }

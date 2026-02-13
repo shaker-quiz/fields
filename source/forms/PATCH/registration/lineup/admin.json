@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "lineup",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     }
   ]
 }
