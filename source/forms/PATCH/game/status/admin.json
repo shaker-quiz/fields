@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "value",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     }
   ]
 }

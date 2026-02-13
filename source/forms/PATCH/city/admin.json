@@ -12,11 +12,11 @@
     },
     {
       "name": "affilation",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "chatapp_version",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "vk_group_id",

@@ -3,7 +3,7 @@
   "fields": [
     {
       "name": "ads_from",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "comment",

@@ -27,11 +27,11 @@
     },
     {
       "name": "audience",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "status",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "location_info",

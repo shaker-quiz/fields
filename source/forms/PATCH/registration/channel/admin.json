@@ -3,11 +3,11 @@
   "fields": [
     {
       "name": "channel",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "confirmed_channel",
-      "kind": "static-autocomplete"
+      "kind": "autocomplete-static"
     },
     {
       "name": "email",
