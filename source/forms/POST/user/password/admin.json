@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "value",
+      "name": "password",
       "kind": "password"
     }
   ]
