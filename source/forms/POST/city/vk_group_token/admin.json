@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "value",
+      "name": "vk_group_token",
       "kind": "string"
     }
   ]
