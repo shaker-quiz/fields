@@ -10,15 +10,15 @@
       "kind": "string"
     },
     {
-      "name": "country",
+      "name": "country_id",
       "kind": "autocomplete-dynamic"
     },
     {
-      "name": "currency_name",
+      "name": "currency_id",
       "kind": "autocomplete-dynamic"
     },
     {
-      "name": "timezone_name",
+      "name": "timezone_id",
       "kind": "autocomplete-dynamic"
     }
   ]
