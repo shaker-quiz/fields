@@ -120,7 +120,7 @@ export const FormKind = Object.freeze(
     'PATCH/city/timezone/organizer': 'Unknown',
     'PATCH/city/currency/admin': 'Schema',
     'PATCH/city/currency/organizer': 'Unknown',
-    'PATCH/city/country/admin': 'Unknown',
+    'PATCH/city/country/admin': 'Schema',
     'PATCH/city/country/organizer': 'Unknown',
     'PATCH/city/vk_group_token/admin': 'Unknown',
     'PATCH/city/admin': 'Schema',
