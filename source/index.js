@@ -92,7 +92,7 @@ export const FormSchema = Object.freeze(
 
 export const FormKind = Object.freeze(
   /** @type {const} */ ({
-    'POST/theme/cover/admin': 'FormData',
+    'POST/theme/cover/admin': 'Schema',
     'POST/theme/admin': 'Schema',
     'POST/checkin/Unknown': 'Schema',
     'POST/user/role/admin': 'Schema',
