@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "event_id",
+      "name": "game_id",
       "kind": "autocomplete-dynamic"
     },
     {

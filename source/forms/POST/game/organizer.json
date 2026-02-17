@@ -2,7 +2,7 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "location_id",
+      "name": "venue_id",
       "kind": "autocomplete-dynamic"
     },
     {
