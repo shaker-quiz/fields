@@ -14,7 +14,6 @@ import POST_venue_organizer from './forms/POST/venue/organizer.json' with { type
 import POST_registration_Unknown from './forms/POST/registration/Unknown.json' with { type: 'json' }
 import POST_registration_admin from './forms/POST/registration/admin.json' with { type: 'json' }
 import POST_registration_organizer from './forms/POST/registration/organizer.json' with { type: 'json' }
-import PATCH_theme_cover_admin from './forms/PATCH/theme/cover/admin.json' with { type: 'json' }
 import PATCH_theme_admin from './forms/PATCH/theme/admin.json' with { type: 'json' }
 import PATCH_user_role_admin from './forms/PATCH/user/role/admin.json' with { type: 'json' }
 import PATCH_user_password_admin from './forms/PATCH/user/password/admin.json' with { type: 'json' }
@@ -61,7 +60,6 @@ export const FormSchema = Object.freeze(
     'POST/registration/Unknown': POST_registration_Unknown,
     'POST/registration/admin': POST_registration_admin,
     'POST/registration/organizer': POST_registration_organizer,
-    'PATCH/theme/cover/admin': PATCH_theme_cover_admin,
     'PATCH/theme/admin': PATCH_theme_admin,
     'PATCH/user/role/admin': PATCH_user_role_admin,
     'PATCH/user/password/admin': PATCH_user_password_admin,
@@ -110,7 +108,6 @@ export const FormKind = Object.freeze(
     'POST/registration/Unknown': 'Schema',
     'POST/registration/admin': 'Schema',
     'POST/registration/organizer': 'Schema',
-    'PATCH/theme/cover/admin': 'Unknown',
     'PATCH/theme/admin': 'Schema',
     'PATCH/user/role/admin': 'Schema',
     'PATCH/user/password/admin': 'Schema',
@@ -137,6 +134,6 @@ export const FormKind = Object.freeze(
     'PATCH/registration/lineup/admin': 'Schema',
     'PATCH/registration/admin': 'Schema',
     'PATCH/registration/organizer': 'Schema',
-    'PUT/theme/cover/admin': 'FormData'
+    'PUT/theme/cover/admin': 'Schema'
   }),
 )
