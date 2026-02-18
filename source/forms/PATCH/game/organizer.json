@@ -6,8 +6,29 @@
       "kind": "number"
     },
     {
+      "name": "alias",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
       "name": "event_time",
       "kind": "datetime"
+    },
+    {
+      "name": "price",
+      "kind": "number"
+    },
+    {
+      "name": "min_members_count",
+      "kind": "number"
+    },
+    {
+      "name": "max_members_count",
+      "kind": "number"
+    },
+    {
+      "name": "status",
+      "kind": "autocomplete-static"
     }
   ]
 }
