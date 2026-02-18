@@ -13,6 +13,90 @@
     {
       "name": "affilation",
       "kind": "autocomplete-static"
+    },
+    {
+      "name": "vk_link",
+      "kind": "url"
+    },
+    {
+      "name": "vk_group_id",
+      "kind": "string"
+    },
+    {
+      "name": "tg_link",
+      "kind": "url"
+    },
+    {
+      "name": "telegram_chat_id",
+      "kind": "string"
+    },
+    {
+      "name": "telegram_channel_id",
+      "kind": "string"
+    },
+    {
+      "name": "inst_link",
+      "kind": "url"
+    },
+    {
+      "name": "phone",
+      "kind": "phone"
+    },
+    {
+      "name": "email",
+      "kind": "email"
+    },
+    {
+      "name": "address",
+      "kind": "string"
+    },
+    {
+      "name": "game_time",
+      "kind": "time"
+    },
+    {
+      "name": "price",
+      "kind": "number"
+    },
+    {
+      "name": "min_members_count",
+      "kind": "number"
+    },
+    {
+      "name": "max_members_count",
+      "kind": "number"
+    },
+    {
+      "name": "chatapp_version",
+      "kind": "autocomplete-static"
+    },
+    {
+      "name": "chatapp_line",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_user",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_tag",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_category",
+      "kind": "string"
+    },
+    {
+      "name": "yandex_metrica",
+      "kind": "string"
+    },
+    {
+      "name": "custom_script",
+      "kind": "text"
+    },
+    {
+      "name": "custom_html",
+      "kind": "text"
     }
   ]
 }

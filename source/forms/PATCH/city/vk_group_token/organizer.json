@@ -1,0 +1,9 @@
+{
+  "state": "Interactive",
+  "fields": [
+    {
+      "name": "vk_group_token",
+      "kind": "string"
+    }
+  ]
+}
