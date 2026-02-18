@@ -15,11 +15,88 @@
     },
     {
       "name": "phone",
-      "kind": "phone"
+      "kind": "phone",
+      "state": "Readonly"
+    },
+    {
+      "name": "email",
+      "kind": "email",
+      "state": "Readonly"
+    },
+    {
+      "name": "vkontakte",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "telegramBot",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "is_alone",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_first",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_birthday",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_extensible",
+      "kind": "checkbox"
+    },
+    {
+      "name": "promocode",
+      "kind": "string",
+      "state": "Readonly"
     },
     {
       "name": "celebrant",
-      "kind": "string"
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "comment",
+      "kind": "text",
+      "state": "Readonly"
+    },
+    {
+      "name": "note",
+      "kind": "text"
+    },
+    {
+      "name": "ads_from",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "utm_source",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "utm_medium",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "utm_campaign",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "utm_content",
+      "kind": "string",
+      "state": "Readonly"
+    },
+    {
+      "name": "utm_term",
+      "kind": "string",
+      "state": "Readonly"
     }
   ]
 }
