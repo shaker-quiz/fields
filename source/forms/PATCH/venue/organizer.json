@@ -14,14 +14,6 @@
       "kind": "string"
     },
     {
-      "name": "people_capacity",
-      "kind": "number"
-    },
-    {
-      "name": "team_capacity",
-      "kind": "number"
-    },
-    {
       "name": "game_time",
       "kind": "time"
     },
@@ -30,8 +22,12 @@
       "kind": "autocomplete-static"
     },
     {
-      "name": "status",
-      "kind": "autocomplete-static"
+      "name": "people_capacity",
+      "kind": "number"
+    },
+    {
+      "name": "team_capacity",
+      "kind": "number"
     },
     {
       "name": "location_info",
@@ -40,6 +36,10 @@
     {
       "name": "href",
       "kind": "url"
+    },
+    {
+      "name": "status",
+      "kind": "autocomplete-static"
     }
   ]
 }
