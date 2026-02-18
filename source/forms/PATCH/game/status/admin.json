@@ -1,9 +1,0 @@
-{
-  "state": "Interactive",
-  "fields": [
-    {
-      "name": "value",
-      "kind": "autocomplete-static"
-    }
-  ]
-}

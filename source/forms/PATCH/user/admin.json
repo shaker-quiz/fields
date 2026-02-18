@@ -2,20 +2,20 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "first_name",
-      "kind": "string"
-    },
-    {
-      "name": "last_name",
-      "kind": "string"
-    },
-    {
       "name": "email",
       "kind": "string"
     },
     {
       "name": "phone",
       "kind": "phone"
+    },
+    {
+      "name": "first_name",
+      "kind": "string"
+    },
+    {
+      "name": "last_name",
+      "kind": "string"
     }
   ]
 }

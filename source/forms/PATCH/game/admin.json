@@ -2,16 +2,6 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "venue_id",
-      "kind": "autocomplete-dynamic",
-      "state": "Readonly"
-    },
-    {
-      "name": "theme_id",
-      "kind": "autocomplete-dynamic",
-      "state": "Readonly"
-    },
-    {
       "name": "number",
       "kind": "number"
     },
