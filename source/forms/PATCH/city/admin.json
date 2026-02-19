@@ -25,6 +25,22 @@
     {
       "name": "telegram_channel_id",
       "kind": "string"
+    },
+    {
+      "name": "chatapp_line",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_user",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_tag",
+      "kind": "string"
+    },
+    {
+      "name": "chatapp_category",
+      "kind": "string"
     }
   ]
 }
