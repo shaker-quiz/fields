@@ -27,6 +27,10 @@
       "kind": "string"
     },
     {
+      "name": "telegram_chat_id",
+      "kind": "string"
+    },
+    {
       "name": "chatapp_line",
       "kind": "string"
     },
