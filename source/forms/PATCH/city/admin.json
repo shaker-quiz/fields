@@ -19,6 +19,14 @@
       "kind": "static-autocomplete"
     },
     {
+      "name": "tg_link",
+      "kind": "string"
+    },
+    {
+      "name": "vk_link",
+      "kind": "string"
+    },
+    {
       "name": "vk_group_id",
       "kind": "string"
     },
