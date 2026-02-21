@@ -18,6 +18,10 @@
     {
       "name": "event_time",
       "kind": "datetime"
+    },
+    {
+      "name": "price",
+      "kind": "number"
     }
   ]
 }
