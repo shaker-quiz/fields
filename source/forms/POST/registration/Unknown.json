@@ -2,18 +2,6 @@
   "state": "Interactive",
   "fields": [
     {
-      "name": "ads_from",
-      "kind": "autocomplete-static"
-    },
-    {
-      "name": "comment",
-      "kind": "text"
-    },
-    {
-      "name": "email",
-      "kind": "email"
-    },
-    {
       "name": "human_name",
       "kind": "string"
     },
@@ -22,19 +10,19 @@
       "kind": "string"
     },
     {
+      "name": "email",
+      "kind": "email"
+    },
+    {
+      "name": "phone",
+      "kind": "phone"
+    },
+    {
+      "name": "people_count",
+      "kind": "number"
+    },
+    {
       "name": "is_alone",
-      "kind": "checkbox"
-    },
-    {
-      "name": "is_birthday",
-      "kind": "checkbox"
-    },
-    {
-      "name": "celebrant",
-      "kind": "string"
-    },
-    {
-      "name": "is_extensible",
       "kind": "checkbox"
     },
     {
@@ -42,16 +30,28 @@
       "kind": "checkbox"
     },
     {
-      "name": "people_count",
-      "kind": "number"
+      "name": "is_birthday",
+      "kind": "checkbox"
     },
     {
-      "name": "phone",
-      "kind": "phone"
+      "name": "is_extensible",
+      "kind": "checkbox"
+    },
+    {
+      "name": "celebrant",
+      "kind": "string"
     },
     {
       "name": "promocode",
       "kind": "string"
+    },
+    {
+      "name": "comment",
+      "kind": "text"
+    },
+    {
+      "name": "ads_from",
+      "kind": "autocomplete-static"
     }
   ]
 }

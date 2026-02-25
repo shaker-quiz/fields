@@ -34,11 +34,11 @@
       "state": "Readonly"
     },
     {
-      "name": "is_alone",
+      "name": "is_first",
       "kind": "checkbox"
     },
     {
-      "name": "is_first",
+      "name": "is_alone",
       "kind": "checkbox"
     },
     {

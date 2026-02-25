@@ -6,36 +6,12 @@
       "kind": "autocomplete-dynamic"
     },
     {
-      "name": "email",
-      "kind": "email"
-    },
-    {
-      "name": "human_name",
-      "kind": "string"
-    },
-    {
       "name": "team_name",
       "kind": "string"
     },
     {
-      "name": "is_alone",
-      "kind": "checkbox"
-    },
-    {
-      "name": "is_birthday",
-      "kind": "checkbox"
-    },
-    {
-      "name": "celebrant",
+      "name": "human_name",
       "kind": "string"
-    },
-    {
-      "name": "is_extensible",
-      "kind": "checkbox"
-    },
-    {
-      "name": "is_first",
-      "kind": "checkbox"
     },
     {
       "name": "people_count",
@@ -46,16 +22,36 @@
       "kind": "phone"
     },
     {
+      "name": "email",
+      "kind": "email"
+    },
+    {
+      "name": "is_first",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_alone",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_birthday",
+      "kind": "checkbox"
+    },
+    {
+      "name": "is_extensible",
+      "kind": "checkbox"
+    },
+    {
       "name": "promocode",
+      "kind": "string"
+    },
+    {
+      "name": "celebrant",
       "kind": "string"
     },
     {
       "name": "note",
       "kind": "text"
-    },
-    {
-      "name": "channel",
-      "kind": "autocomplete-static"
     }
   ]
 }
