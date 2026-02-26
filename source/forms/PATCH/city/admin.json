@@ -1,5 +1,5 @@
 {
-  "state": "Interactive",
+  "state": "interactive",
   "fields": [
     {
       "name": "name",
@@ -8,7 +8,7 @@
     {
       "name": "alias",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "affilation",

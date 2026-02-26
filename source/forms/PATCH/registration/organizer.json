@@ -1,5 +1,5 @@
 {
-  "state": "Interactive",
+  "state": "interactive",
   "fields": [
     {
       "name": "team_name",
@@ -16,22 +16,22 @@
     {
       "name": "phone",
       "kind": "phone",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "email",
       "kind": "email",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "vkontakte",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "telegramBot",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "is_first",
@@ -52,17 +52,17 @@
     {
       "name": "promocode",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "celebrant",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "comment",
       "kind": "text",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "note",
@@ -71,32 +71,32 @@
     {
       "name": "ads_from",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "utm_source",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "utm_medium",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "utm_campaign",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "utm_content",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "utm_term",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     }
   ]
 }

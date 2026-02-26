@@ -1,5 +1,5 @@
 {
-  "state": "Interactive",
+  "state": "interactive",
   "fields": [
     {
       "name": "number",
@@ -8,7 +8,7 @@
     {
       "name": "alias",
       "kind": "string",
-      "state": "Readonly"
+      "state": "readonly"
     },
     {
       "name": "event_time",
