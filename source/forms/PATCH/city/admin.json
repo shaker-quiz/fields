@@ -57,6 +57,18 @@
     {
       "name": "price",
       "kind": "number"
+    },
+    {
+      "name": "yandex_metrica",
+      "kind": "string"
+    },
+    {
+      "name": "custom_script",
+      "kind": "text"
+    },
+    {
+      "name": "custom_html",
+      "kind": "text"
     }
   ]
 }
