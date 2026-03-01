@@ -1,6 +1,8 @@
 import POST_theme_cover_admin from './forms/POST/theme/cover/admin.json' with { type: 'json' }
 import POST_theme_admin from './forms/POST/theme/admin.json' with { type: 'json' }
 import POST_checkin_Unknown from './forms/POST/checkin/Unknown.json' with { type: 'json' }
+import POST_checkin_admin from './forms/POST/checkin/admin.json' with { type: 'json' }
+import POST_checkin_organizer from './forms/POST/checkin/organizer.json' with { type: 'json' }
 import POST_user_role_admin from './forms/POST/user/role/admin.json' with { type: 'json' }
 import POST_user_city_admin from './forms/POST/user/city/admin.json' with { type: 'json' }
 import POST_user_password_admin from './forms/POST/user/password/admin.json' with { type: 'json' }
@@ -47,6 +49,8 @@ export const FormSchema = Object.freeze(
     'POST/theme/cover/admin': POST_theme_cover_admin,
     'POST/theme/admin': POST_theme_admin,
     'POST/checkin/Unknown': POST_checkin_Unknown,
+    'POST/checkin/admin': POST_checkin_admin,
+    'POST/checkin/organizer': POST_checkin_organizer,
     'POST/user/role/admin': POST_user_role_admin,
     'POST/user/city/admin': POST_user_city_admin,
     'POST/user/password/admin': POST_user_password_admin,
@@ -95,6 +99,8 @@ export const FormKind = Object.freeze(
     'POST/theme/cover/admin': 'Schema',
     'POST/theme/admin': 'Schema',
     'POST/checkin/Unknown': 'Schema',
+    'POST/checkin/admin': 'Unknown',
+    'POST/checkin/organizer': 'Unknown',
     'POST/user/role/admin': 'Schema',
     'POST/user/city/admin': 'Schema',
     'POST/user/password/admin': 'Schema',
