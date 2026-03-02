@@ -29,7 +29,7 @@
       "state": "readonly"
     },
     {
-      "name": "telegramBot",
+      "name": "telegram",
       "kind": "string",
       "state": "readonly"
     },
