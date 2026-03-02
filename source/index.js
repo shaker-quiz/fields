@@ -1,145 +1,145 @@
-import POST_theme_cover_admin from './forms/POST/theme/cover/admin.json' with { type: 'json' }
-import POST_theme_admin from './forms/POST/theme/admin.json' with { type: 'json' }
+import POST_theme_cover_Admin from './forms/POST/theme/cover/Admin.json' with { type: 'json' }
+import POST_theme_Admin from './forms/POST/theme/Admin.json' with { type: 'json' }
 import POST_checkin_Unknown from './forms/POST/checkin/Unknown.json' with { type: 'json' }
-import POST_checkin_admin from './forms/POST/checkin/admin.json' with { type: 'json' }
-import POST_checkin_organizer from './forms/POST/checkin/organizer.json' with { type: 'json' }
-import POST_user_role_admin from './forms/POST/user/role/admin.json' with { type: 'json' }
-import POST_user_city_admin from './forms/POST/user/city/admin.json' with { type: 'json' }
-import POST_user_password_admin from './forms/POST/user/password/admin.json' with { type: 'json' }
-import POST_user_admin from './forms/POST/user/admin.json' with { type: 'json' }
-import POST_game_admin from './forms/POST/game/admin.json' with { type: 'json' }
-import POST_game_organizer from './forms/POST/game/organizer.json' with { type: 'json' }
-import POST_city_vk_group_token_admin from './forms/POST/city/vk_group_token/admin.json' with { type: 'json' }
-import POST_city_admin from './forms/POST/city/admin.json' with { type: 'json' }
-import POST_venue_admin from './forms/POST/venue/admin.json' with { type: 'json' }
-import POST_venue_organizer from './forms/POST/venue/organizer.json' with { type: 'json' }
+import POST_checkin_Admin from './forms/POST/checkin/Admin.json' with { type: 'json' }
+import POST_checkin_Organizer from './forms/POST/checkin/Organizer.json' with { type: 'json' }
+import POST_user_role_Admin from './forms/POST/user/role/Admin.json' with { type: 'json' }
+import POST_user_city_Admin from './forms/POST/user/city/Admin.json' with { type: 'json' }
+import POST_user_password_Admin from './forms/POST/user/password/Admin.json' with { type: 'json' }
+import POST_user_Admin from './forms/POST/user/Admin.json' with { type: 'json' }
+import POST_game_Admin from './forms/POST/game/Admin.json' with { type: 'json' }
+import POST_game_Organizer from './forms/POST/game/Organizer.json' with { type: 'json' }
+import POST_city_vk_group_token_Admin from './forms/POST/city/vk_group_token/Admin.json' with { type: 'json' }
+import POST_city_Admin from './forms/POST/city/Admin.json' with { type: 'json' }
+import POST_venue_Admin from './forms/POST/venue/Admin.json' with { type: 'json' }
+import POST_venue_Organizer from './forms/POST/venue/Organizer.json' with { type: 'json' }
 import POST_registration_Unknown from './forms/POST/registration/Unknown.json' with { type: 'json' }
-import POST_registration_admin from './forms/POST/registration/admin.json' with { type: 'json' }
-import POST_registration_organizer from './forms/POST/registration/organizer.json' with { type: 'json' }
-import PATCH_theme_admin from './forms/PATCH/theme/admin.json' with { type: 'json' }
-import PATCH_theme_organizer from './forms/PATCH/theme/organizer.json' with { type: 'json' }
-import PATCH_user_role_admin from './forms/PATCH/user/role/admin.json' with { type: 'json' }
-import PATCH_user_password_admin from './forms/PATCH/user/password/admin.json' with { type: 'json' }
-import PATCH_user_admin from './forms/PATCH/user/admin.json' with { type: 'json' }
-import PATCH_game_admin from './forms/PATCH/game/admin.json' with { type: 'json' }
-import PATCH_game_organizer from './forms/PATCH/game/organizer.json' with { type: 'json' }
-import PATCH_city_timezone_admin from './forms/PATCH/city/timezone/admin.json' with { type: 'json' }
-import PATCH_city_timezone_organizer from './forms/PATCH/city/timezone/organizer.json' with { type: 'json' }
-import PATCH_city_currency_admin from './forms/PATCH/city/currency/admin.json' with { type: 'json' }
-import PATCH_city_currency_organizer from './forms/PATCH/city/currency/organizer.json' with { type: 'json' }
-import PATCH_city_country_admin from './forms/PATCH/city/country/admin.json' with { type: 'json' }
-import PATCH_city_country_organizer from './forms/PATCH/city/country/organizer.json' with { type: 'json' }
-import PATCH_city_vk_group_token_admin from './forms/PATCH/city/vk_group_token/admin.json' with { type: 'json' }
-import PATCH_city_vk_group_token_organizer from './forms/PATCH/city/vk_group_token/organizer.json' with { type: 'json' }
-import PATCH_city_admin from './forms/PATCH/city/admin.json' with { type: 'json' }
-import PATCH_city_organizer from './forms/PATCH/city/organizer.json' with { type: 'json' }
-import PATCH_venue_admin from './forms/PATCH/venue/admin.json' with { type: 'json' }
-import PATCH_venue_organizer from './forms/PATCH/venue/organizer.json' with { type: 'json' }
-import PATCH_registration_channel_admin from './forms/PATCH/registration/channel/admin.json' with { type: 'json' }
-import PATCH_registration_attributes_admin from './forms/PATCH/registration/attributes/admin.json' with { type: 'json' }
-import PATCH_registration_status_admin from './forms/PATCH/registration/status/admin.json' with { type: 'json' }
-import PATCH_registration_lineup_admin from './forms/PATCH/registration/lineup/admin.json' with { type: 'json' }
-import PATCH_registration_admin from './forms/PATCH/registration/admin.json' with { type: 'json' }
-import PATCH_registration_organizer from './forms/PATCH/registration/organizer.json' with { type: 'json' }
-import PUT_theme_cover_admin from './forms/PUT/theme/cover/admin.json' with { type: 'json' }
-import PUT_theme_cover_organizer from './forms/PUT/theme/cover/organizer.json' with { type: 'json' }
+import POST_registration_Admin from './forms/POST/registration/Admin.json' with { type: 'json' }
+import POST_registration_Organizer from './forms/POST/registration/Organizer.json' with { type: 'json' }
+import PATCH_theme_Admin from './forms/PATCH/theme/Admin.json' with { type: 'json' }
+import PATCH_theme_Organizer from './forms/PATCH/theme/Organizer.json' with { type: 'json' }
+import PATCH_user_role_Admin from './forms/PATCH/user/role/Admin.json' with { type: 'json' }
+import PATCH_user_password_Admin from './forms/PATCH/user/password/Admin.json' with { type: 'json' }
+import PATCH_user_Admin from './forms/PATCH/user/Admin.json' with { type: 'json' }
+import PATCH_game_Admin from './forms/PATCH/game/Admin.json' with { type: 'json' }
+import PATCH_game_Organizer from './forms/PATCH/game/Organizer.json' with { type: 'json' }
+import PATCH_city_timezone_Admin from './forms/PATCH/city/timezone/Admin.json' with { type: 'json' }
+import PATCH_city_timezone_Organizer from './forms/PATCH/city/timezone/Organizer.json' with { type: 'json' }
+import PATCH_city_currency_Admin from './forms/PATCH/city/currency/Admin.json' with { type: 'json' }
+import PATCH_city_currency_Organizer from './forms/PATCH/city/currency/Organizer.json' with { type: 'json' }
+import PATCH_city_country_Admin from './forms/PATCH/city/country/Admin.json' with { type: 'json' }
+import PATCH_city_country_Organizer from './forms/PATCH/city/country/Organizer.json' with { type: 'json' }
+import PATCH_city_vk_group_token_Admin from './forms/PATCH/city/vk_group_token/Admin.json' with { type: 'json' }
+import PATCH_city_vk_group_token_Organizer from './forms/PATCH/city/vk_group_token/Organizer.json' with { type: 'json' }
+import PATCH_city_Admin from './forms/PATCH/city/Admin.json' with { type: 'json' }
+import PATCH_city_Organizer from './forms/PATCH/city/Organizer.json' with { type: 'json' }
+import PATCH_venue_Admin from './forms/PATCH/venue/Admin.json' with { type: 'json' }
+import PATCH_venue_Organizer from './forms/PATCH/venue/Organizer.json' with { type: 'json' }
+import PATCH_registration_channel_Admin from './forms/PATCH/registration/channel/Admin.json' with { type: 'json' }
+import PATCH_registration_attributes_Admin from './forms/PATCH/registration/attributes/Admin.json' with { type: 'json' }
+import PATCH_registration_status_Admin from './forms/PATCH/registration/status/Admin.json' with { type: 'json' }
+import PATCH_registration_lineup_Admin from './forms/PATCH/registration/lineup/Admin.json' with { type: 'json' }
+import PATCH_registration_Admin from './forms/PATCH/registration/Admin.json' with { type: 'json' }
+import PATCH_registration_Organizer from './forms/PATCH/registration/Organizer.json' with { type: 'json' }
+import PUT_theme_cover_Admin from './forms/PUT/theme/cover/Admin.json' with { type: 'json' }
+import PUT_theme_cover_Organizer from './forms/PUT/theme/cover/Organizer.json' with { type: 'json' }
 
 export const FormSchema = Object.freeze(
   /** @type {const} */ ({
-    'POST/theme/cover/admin': POST_theme_cover_admin,
-    'POST/theme/admin': POST_theme_admin,
+    'POST/theme/cover/Admin': POST_theme_cover_Admin,
+    'POST/theme/Admin': POST_theme_Admin,
     'POST/checkin/Unknown': POST_checkin_Unknown,
-    'POST/checkin/admin': POST_checkin_admin,
-    'POST/checkin/organizer': POST_checkin_organizer,
-    'POST/user/role/admin': POST_user_role_admin,
-    'POST/user/city/admin': POST_user_city_admin,
-    'POST/user/password/admin': POST_user_password_admin,
-    'POST/user/admin': POST_user_admin,
-    'POST/game/admin': POST_game_admin,
-    'POST/game/organizer': POST_game_organizer,
-    'POST/city/vk_group_token/admin': POST_city_vk_group_token_admin,
-    'POST/city/admin': POST_city_admin,
-    'POST/venue/admin': POST_venue_admin,
-    'POST/venue/organizer': POST_venue_organizer,
+    'POST/checkin/Admin': POST_checkin_Admin,
+    'POST/checkin/Organizer': POST_checkin_Organizer,
+    'POST/user/role/Admin': POST_user_role_Admin,
+    'POST/user/city/Admin': POST_user_city_Admin,
+    'POST/user/password/Admin': POST_user_password_Admin,
+    'POST/user/Admin': POST_user_Admin,
+    'POST/game/Admin': POST_game_Admin,
+    'POST/game/Organizer': POST_game_Organizer,
+    'POST/city/vk_group_token/Admin': POST_city_vk_group_token_Admin,
+    'POST/city/Admin': POST_city_Admin,
+    'POST/venue/Admin': POST_venue_Admin,
+    'POST/venue/Organizer': POST_venue_Organizer,
     'POST/registration/Unknown': POST_registration_Unknown,
-    'POST/registration/admin': POST_registration_admin,
-    'POST/registration/organizer': POST_registration_organizer,
-    'PATCH/theme/admin': PATCH_theme_admin,
-    'PATCH/theme/organizer': PATCH_theme_organizer,
-    'PATCH/user/role/admin': PATCH_user_role_admin,
-    'PATCH/user/password/admin': PATCH_user_password_admin,
-    'PATCH/user/admin': PATCH_user_admin,
-    'PATCH/game/admin': PATCH_game_admin,
-    'PATCH/game/organizer': PATCH_game_organizer,
-    'PATCH/city/timezone/admin': PATCH_city_timezone_admin,
-    'PATCH/city/timezone/organizer': PATCH_city_timezone_organizer,
-    'PATCH/city/currency/admin': PATCH_city_currency_admin,
-    'PATCH/city/currency/organizer': PATCH_city_currency_organizer,
-    'PATCH/city/country/admin': PATCH_city_country_admin,
-    'PATCH/city/country/organizer': PATCH_city_country_organizer,
-    'PATCH/city/vk_group_token/admin': PATCH_city_vk_group_token_admin,
-    'PATCH/city/vk_group_token/organizer': PATCH_city_vk_group_token_organizer,
-    'PATCH/city/admin': PATCH_city_admin,
-    'PATCH/city/organizer': PATCH_city_organizer,
-    'PATCH/venue/admin': PATCH_venue_admin,
-    'PATCH/venue/organizer': PATCH_venue_organizer,
-    'PATCH/registration/channel/admin': PATCH_registration_channel_admin,
-    'PATCH/registration/attributes/admin': PATCH_registration_attributes_admin,
-    'PATCH/registration/status/admin': PATCH_registration_status_admin,
-    'PATCH/registration/lineup/admin': PATCH_registration_lineup_admin,
-    'PATCH/registration/admin': PATCH_registration_admin,
-    'PATCH/registration/organizer': PATCH_registration_organizer,
-    'PUT/theme/cover/admin': PUT_theme_cover_admin,
-    'PUT/theme/cover/organizer': PUT_theme_cover_organizer
+    'POST/registration/Admin': POST_registration_Admin,
+    'POST/registration/Organizer': POST_registration_Organizer,
+    'PATCH/theme/Admin': PATCH_theme_Admin,
+    'PATCH/theme/Organizer': PATCH_theme_Organizer,
+    'PATCH/user/role/Admin': PATCH_user_role_Admin,
+    'PATCH/user/password/Admin': PATCH_user_password_Admin,
+    'PATCH/user/Admin': PATCH_user_Admin,
+    'PATCH/game/Admin': PATCH_game_Admin,
+    'PATCH/game/Organizer': PATCH_game_Organizer,
+    'PATCH/city/timezone/Admin': PATCH_city_timezone_Admin,
+    'PATCH/city/timezone/Organizer': PATCH_city_timezone_Organizer,
+    'PATCH/city/currency/Admin': PATCH_city_currency_Admin,
+    'PATCH/city/currency/Organizer': PATCH_city_currency_Organizer,
+    'PATCH/city/country/Admin': PATCH_city_country_Admin,
+    'PATCH/city/country/Organizer': PATCH_city_country_Organizer,
+    'PATCH/city/vk_group_token/Admin': PATCH_city_vk_group_token_Admin,
+    'PATCH/city/vk_group_token/Organizer': PATCH_city_vk_group_token_Organizer,
+    'PATCH/city/Admin': PATCH_city_Admin,
+    'PATCH/city/Organizer': PATCH_city_Organizer,
+    'PATCH/venue/Admin': PATCH_venue_Admin,
+    'PATCH/venue/Organizer': PATCH_venue_Organizer,
+    'PATCH/registration/channel/Admin': PATCH_registration_channel_Admin,
+    'PATCH/registration/attributes/Admin': PATCH_registration_attributes_Admin,
+    'PATCH/registration/status/Admin': PATCH_registration_status_Admin,
+    'PATCH/registration/lineup/Admin': PATCH_registration_lineup_Admin,
+    'PATCH/registration/Admin': PATCH_registration_Admin,
+    'PATCH/registration/Organizer': PATCH_registration_Organizer,
+    'PUT/theme/cover/Admin': PUT_theme_cover_Admin,
+    'PUT/theme/cover/Organizer': PUT_theme_cover_Organizer
   }),
 )
 
 export const FormKind = Object.freeze(
   /** @type {const} */ ({
-    'POST/theme/cover/admin': 'Schema',
-    'POST/theme/admin': 'Schema',
+    'POST/theme/cover/Admin': 'Schema',
+    'POST/theme/Admin': 'Schema',
     'POST/checkin/Unknown': 'Schema',
-    'POST/checkin/admin': 'Schema',
-    'POST/checkin/organizer': 'Schema',
-    'POST/user/role/admin': 'Schema',
-    'POST/user/city/admin': 'Schema',
-    'POST/user/password/admin': 'Schema',
-    'POST/user/admin': 'Schema',
-    'POST/game/admin': 'Schema',
-    'POST/game/organizer': 'Schema',
-    'POST/city/vk_group_token/admin': 'Schema',
-    'POST/city/admin': 'Schema',
-    'POST/venue/admin': 'Schema',
-    'POST/venue/organizer': 'Schema',
+    'POST/checkin/Admin': 'Schema',
+    'POST/checkin/Organizer': 'Schema',
+    'POST/user/role/Admin': 'Schema',
+    'POST/user/city/Admin': 'Schema',
+    'POST/user/password/Admin': 'Schema',
+    'POST/user/Admin': 'Schema',
+    'POST/game/Admin': 'Schema',
+    'POST/game/Organizer': 'Schema',
+    'POST/city/vk_group_token/Admin': 'Schema',
+    'POST/city/Admin': 'Schema',
+    'POST/venue/Admin': 'Schema',
+    'POST/venue/Organizer': 'Schema',
     'POST/registration/Unknown': 'Schema',
-    'POST/registration/admin': 'Schema',
-    'POST/registration/organizer': 'Schema',
-    'PATCH/theme/admin': 'Schema',
-    'PATCH/theme/organizer': 'Unknown',
-    'PATCH/user/role/admin': 'Schema',
-    'PATCH/user/password/admin': 'Schema',
-    'PATCH/user/admin': 'Schema',
-    'PATCH/game/admin': 'Schema',
-    'PATCH/game/organizer': 'Schema',
-    'PATCH/city/timezone/admin': 'Schema',
-    'PATCH/city/timezone/organizer': 'Schema',
-    'PATCH/city/currency/admin': 'Schema',
-    'PATCH/city/currency/organizer': 'Schema',
-    'PATCH/city/country/admin': 'Schema',
-    'PATCH/city/country/organizer': 'Schema',
-    'PATCH/city/vk_group_token/admin': 'Schema',
-    'PATCH/city/vk_group_token/organizer': 'Schema',
-    'PATCH/city/admin': 'Schema',
-    'PATCH/city/organizer': 'Schema',
-    'PATCH/venue/admin': 'Schema',
-    'PATCH/venue/organizer': 'Schema',
-    'PATCH/registration/channel/admin': 'Schema',
-    'PATCH/registration/attributes/admin': 'Unknown',
-    'PATCH/registration/status/admin': 'Schema',
-    'PATCH/registration/lineup/admin': 'Schema',
-    'PATCH/registration/admin': 'Schema',
-    'PATCH/registration/organizer': 'Schema',
-    'PUT/theme/cover/admin': 'Schema',
-    'PUT/theme/cover/organizer': 'Schema'
+    'POST/registration/Admin': 'Schema',
+    'POST/registration/Organizer': 'Schema',
+    'PATCH/theme/Admin': 'Schema',
+    'PATCH/theme/Organizer': 'Unknown',
+    'PATCH/user/role/Admin': 'Schema',
+    'PATCH/user/password/Admin': 'Schema',
+    'PATCH/user/Admin': 'Schema',
+    'PATCH/game/Admin': 'Schema',
+    'PATCH/game/Organizer': 'Schema',
+    'PATCH/city/timezone/Admin': 'Schema',
+    'PATCH/city/timezone/Organizer': 'Schema',
+    'PATCH/city/currency/Admin': 'Schema',
+    'PATCH/city/currency/Organizer': 'Schema',
+    'PATCH/city/country/Admin': 'Schema',
+    'PATCH/city/country/Organizer': 'Schema',
+    'PATCH/city/vk_group_token/Admin': 'Schema',
+    'PATCH/city/vk_group_token/Organizer': 'Schema',
+    'PATCH/city/Admin': 'Schema',
+    'PATCH/city/Organizer': 'Schema',
+    'PATCH/venue/Admin': 'Schema',
+    'PATCH/venue/Organizer': 'Schema',
+    'PATCH/registration/channel/Admin': 'Schema',
+    'PATCH/registration/attributes/Admin': 'Unknown',
+    'PATCH/registration/status/Admin': 'Schema',
+    'PATCH/registration/lineup/Admin': 'Schema',
+    'PATCH/registration/Admin': 'Schema',
+    'PATCH/registration/Organizer': 'Schema',
+    'PUT/theme/cover/Admin': 'Schema',
+    'PUT/theme/cover/Organizer': 'Schema'
   }),
 )
