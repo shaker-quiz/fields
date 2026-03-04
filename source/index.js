@@ -94,9 +94,9 @@ export const FormSchema = Object.freeze(
 
 export const FormKind = Object.freeze(
   /** @type {const} */ ({
-    'POST/theme/Organizer': 'Unknown',
+    'POST/theme/Organizer': 'Schema',
     'POST/theme/Admin': 'Schema',
-    'POST/theme/cover/Organizer': 'Unknown',
+    'POST/theme/cover/Organizer': 'Schema',
     'POST/theme/cover/Admin': 'Schema',
     'POST/checkin/Organizer': 'Schema',
     'POST/checkin/Admin': 'Schema',
@@ -115,7 +115,7 @@ export const FormKind = Object.freeze(
     'POST/venue/Admin': 'Schema',
     'POST/registration/Organizer': 'Schema',
     'POST/registration/Admin': 'Schema',
-    'PATCH/theme/Organizer': 'Unknown',
+    'PATCH/theme/Organizer': 'Schema',
     'PATCH/theme/Admin': 'Schema',
     'PATCH/user/role/Admin': 'Schema',
     'PATCH/user/Admin': 'Schema',
