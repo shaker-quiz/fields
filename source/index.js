@@ -1,4 +1,6 @@
+import POST_theme_Organizer from './forms/POST/theme/Organizer.json' with { type: 'json' }
 import POST_theme_Admin from './forms/POST/theme/Admin.json' with { type: 'json' }
+import POST_theme_cover_Organizer from './forms/POST/theme/cover/Organizer.json' with { type: 'json' }
 import POST_theme_cover_Admin from './forms/POST/theme/cover/Admin.json' with { type: 'json' }
 import POST_checkin_Organizer from './forms/POST/checkin/Organizer.json' with { type: 'json' }
 import POST_checkin_Admin from './forms/POST/checkin/Admin.json' with { type: 'json' }
@@ -9,13 +11,14 @@ import POST_user_city_Admin from './forms/POST/user/city/Admin.json' with { type
 import POST_user_password_Admin from './forms/POST/user/password/Admin.json' with { type: 'json' }
 import POST_game_Organizer from './forms/POST/game/Organizer.json' with { type: 'json' }
 import POST_game_Admin from './forms/POST/game/Admin.json' with { type: 'json' }
+import POST_city_Organizer from './forms/POST/city/Organizer.json' with { type: 'json' }
 import POST_city_Admin from './forms/POST/city/Admin.json' with { type: 'json' }
+import POST_city_vk_group_token_Organizer from './forms/POST/city/vk_group_token/Organizer.json' with { type: 'json' }
 import POST_city_vk_group_token_Admin from './forms/POST/city/vk_group_token/Admin.json' with { type: 'json' }
 import POST_venue_Organizer from './forms/POST/venue/Organizer.json' with { type: 'json' }
 import POST_venue_Admin from './forms/POST/venue/Admin.json' with { type: 'json' }
 import POST_registration_Organizer from './forms/POST/registration/Organizer.json' with { type: 'json' }
 import POST_registration_Admin from './forms/POST/registration/Admin.json' with { type: 'json' }
-import POST_registration_Unknown from './forms/POST/registration/Unknown.json' with { type: 'json' }
 import PATCH_theme_Organizer from './forms/PATCH/theme/Organizer.json' with { type: 'json' }
 import PATCH_theme_Admin from './forms/PATCH/theme/Admin.json' with { type: 'json' }
 import PATCH_user_role_Admin from './forms/PATCH/user/role/Admin.json' with { type: 'json' }
@@ -37,16 +40,14 @@ import PATCH_venue_Organizer from './forms/PATCH/venue/Organizer.json' with { ty
 import PATCH_venue_Admin from './forms/PATCH/venue/Admin.json' with { type: 'json' }
 import PATCH_registration_Organizer from './forms/PATCH/registration/Organizer.json' with { type: 'json' }
 import PATCH_registration_Admin from './forms/PATCH/registration/Admin.json' with { type: 'json' }
-import PATCH_registration_channel_Admin from './forms/PATCH/registration/channel/Admin.json' with { type: 'json' }
-import PATCH_registration_attributes_Admin from './forms/PATCH/registration/attributes/Admin.json' with { type: 'json' }
-import PATCH_registration_status_Admin from './forms/PATCH/registration/status/Admin.json' with { type: 'json' }
-import PATCH_registration_lineup_Admin from './forms/PATCH/registration/lineup/Admin.json' with { type: 'json' }
 import PUT_theme_cover_Organizer from './forms/PUT/theme/cover/Organizer.json' with { type: 'json' }
 import PUT_theme_cover_Admin from './forms/PUT/theme/cover/Admin.json' with { type: 'json' }
 
 export const FormSchema = Object.freeze(
   /** @type {const} */ ({
+    'POST/theme/Organizer': POST_theme_Organizer,
     'POST/theme/Admin': POST_theme_Admin,
+    'POST/theme/cover/Organizer': POST_theme_cover_Organizer,
     'POST/theme/cover/Admin': POST_theme_cover_Admin,
     'POST/checkin/Organizer': POST_checkin_Organizer,
     'POST/checkin/Admin': POST_checkin_Admin,
@@ -57,13 +58,14 @@ export const FormSchema = Object.freeze(
     'POST/user/password/Admin': POST_user_password_Admin,
     'POST/game/Organizer': POST_game_Organizer,
     'POST/game/Admin': POST_game_Admin,
+    'POST/city/Organizer': POST_city_Organizer,
     'POST/city/Admin': POST_city_Admin,
+    'POST/city/vk_group_token/Organizer': POST_city_vk_group_token_Organizer,
     'POST/city/vk_group_token/Admin': POST_city_vk_group_token_Admin,
     'POST/venue/Organizer': POST_venue_Organizer,
     'POST/venue/Admin': POST_venue_Admin,
     'POST/registration/Organizer': POST_registration_Organizer,
     'POST/registration/Admin': POST_registration_Admin,
-    'POST/registration/Unknown': POST_registration_Unknown,
     'PATCH/theme/Organizer': PATCH_theme_Organizer,
     'PATCH/theme/Admin': PATCH_theme_Admin,
     'PATCH/user/role/Admin': PATCH_user_role_Admin,
@@ -85,10 +87,6 @@ export const FormSchema = Object.freeze(
     'PATCH/venue/Admin': PATCH_venue_Admin,
     'PATCH/registration/Organizer': PATCH_registration_Organizer,
     'PATCH/registration/Admin': PATCH_registration_Admin,
-    'PATCH/registration/channel/Admin': PATCH_registration_channel_Admin,
-    'PATCH/registration/attributes/Admin': PATCH_registration_attributes_Admin,
-    'PATCH/registration/status/Admin': PATCH_registration_status_Admin,
-    'PATCH/registration/lineup/Admin': PATCH_registration_lineup_Admin,
     'PUT/theme/cover/Organizer': PUT_theme_cover_Organizer,
     'PUT/theme/cover/Admin': PUT_theme_cover_Admin
   }),
@@ -96,7 +94,9 @@ export const FormSchema = Object.freeze(
 
 export const FormKind = Object.freeze(
   /** @type {const} */ ({
+    'POST/theme/Organizer': 'Unknown',
     'POST/theme/Admin': 'Schema',
+    'POST/theme/cover/Organizer': 'Unknown',
     'POST/theme/cover/Admin': 'Schema',
     'POST/checkin/Organizer': 'Schema',
     'POST/checkin/Admin': 'Schema',
@@ -107,13 +107,14 @@ export const FormKind = Object.freeze(
     'POST/user/password/Admin': 'Schema',
     'POST/game/Organizer': 'Schema',
     'POST/game/Admin': 'Schema',
+    'POST/city/Organizer': 'Schema',
     'POST/city/Admin': 'Schema',
+    'POST/city/vk_group_token/Organizer': 'Schema',
     'POST/city/vk_group_token/Admin': 'Schema',
     'POST/venue/Organizer': 'Schema',
     'POST/venue/Admin': 'Schema',
     'POST/registration/Organizer': 'Schema',
     'POST/registration/Admin': 'Schema',
-    'POST/registration/Unknown': 'Schema',
     'PATCH/theme/Organizer': 'Unknown',
     'PATCH/theme/Admin': 'Schema',
     'PATCH/user/role/Admin': 'Schema',
@@ -135,10 +136,6 @@ export const FormKind = Object.freeze(
     'PATCH/venue/Admin': 'Schema',
     'PATCH/registration/Organizer': 'Schema',
     'PATCH/registration/Admin': 'Schema',
-    'PATCH/registration/channel/Admin': 'Schema',
-    'PATCH/registration/attributes/Admin': 'Unknown',
-    'PATCH/registration/status/Admin': 'Schema',
-    'PATCH/registration/lineup/Admin': 'Schema',
     'PUT/theme/cover/Organizer': 'Schema',
     'PUT/theme/cover/Admin': 'Schema'
   }),
