@@ -1,0 +1,21 @@
+{
+  "state": "interactive",
+  "fields": [
+    {
+      "name": "team_name",
+      "kind": "string"
+    },
+    {
+      "name": "human_name",
+      "kind": "string"
+    },
+    {
+      "name": "people_count",
+      "kind": "number"
+    },
+    {
+      "name": "note",
+      "kind": "text"
+    }
+  ]
+}
