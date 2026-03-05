@@ -26,6 +26,8 @@ import PATCH_user_Admin from './forms/PATCH/user/Admin.json' with { type: 'json'
 import PATCH_user_password_Admin from './forms/PATCH/user/password/Admin.json' with { type: 'json' }
 import PATCH_game_Organizer from './forms/PATCH/game/Organizer.json' with { type: 'json' }
 import PATCH_game_Admin from './forms/PATCH/game/Admin.json' with { type: 'json' }
+import PATCH_game_registration_Organizer from './forms/PATCH/game/registration/Organizer.json' with { type: 'json' }
+import PATCH_game_registration_Admin from './forms/PATCH/game/registration/Admin.json' with { type: 'json' }
 import PATCH_city_Organizer from './forms/PATCH/city/Organizer.json' with { type: 'json' }
 import PATCH_city_Admin from './forms/PATCH/city/Admin.json' with { type: 'json' }
 import PATCH_city_timezone_Organizer from './forms/PATCH/city/timezone/Organizer.json' with { type: 'json' }
@@ -73,6 +75,8 @@ export const FormSchema = Object.freeze(
     'PATCH/user/password/Admin': PATCH_user_password_Admin,
     'PATCH/game/Organizer': PATCH_game_Organizer,
     'PATCH/game/Admin': PATCH_game_Admin,
+    'PATCH/game/registration/Organizer': PATCH_game_registration_Organizer,
+    'PATCH/game/registration/Admin': PATCH_game_registration_Admin,
     'PATCH/city/Organizer': PATCH_city_Organizer,
     'PATCH/city/Admin': PATCH_city_Admin,
     'PATCH/city/timezone/Organizer': PATCH_city_timezone_Organizer,
@@ -122,6 +126,8 @@ export const FormKind = Object.freeze(
     'PATCH/user/password/Admin': 'Schema',
     'PATCH/game/Organizer': 'Schema',
     'PATCH/game/Admin': 'Schema',
+    'PATCH/game/registration/Organizer': 'Unknown',
+    'PATCH/game/registration/Admin': 'Unknown',
     'PATCH/city/Organizer': 'Schema',
     'PATCH/city/Admin': 'Schema',
     'PATCH/city/timezone/Organizer': 'Schema',
