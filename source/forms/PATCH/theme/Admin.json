@@ -6,15 +6,15 @@
       "kind": "string"
     },
     {
-      "name": "subtitle",
-      "kind": "string"
-    },
-    {
       "name": "alias",
       "kind": "string"
     },
     {
       "name": "description",
+      "kind": "text"
+    },
+    {
+      "name": "short_description",
       "kind": "text"
     },
     {
