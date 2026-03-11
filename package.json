@@ -16,8 +16,8 @@
   ],
   "exports": "./source/index.js",
   "devDependencies": {
-    "@shakerquiz/contracts": "0.0.205",
-    "@shakerquiz/utilities": "4.0.84",
+    "@shakerquiz/contracts": "0.0.206",
+    "@shakerquiz/utilities": "4.0.85",
     "@types/bun": "1.3.7"
   }
 }
