@@ -2,6 +2,14 @@
   "state": "interactive",
   "fields": [
     {
+      "name": "venue_id",
+      "kind": "autocomplete-dynamic"
+    },
+    {
+      "name": "theme_id",
+      "kind": "autocomplete-dynamic"
+    },
+    {
       "name": "number",
       "kind": "number"
     },
