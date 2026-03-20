@@ -1,0 +1,9 @@
+{
+  "state": "interactive",
+  "fields": [
+    {
+      "name": "id",
+      "kind": "autocomplete-dynamic"
+    }
+  ]
+}
