@@ -24,8 +24,12 @@ import PATCH_theme_Admin from './forms/PATCH/theme/Admin.json' with { type: 'jso
 import PATCH_user_role_Admin from './forms/PATCH/user/role/Admin.json' with { type: 'json' }
 import PATCH_user_Admin from './forms/PATCH/user/Admin.json' with { type: 'json' }
 import PATCH_user_password_Admin from './forms/PATCH/user/password/Admin.json' with { type: 'json' }
+import PATCH_game_theme_Organizer from './forms/PATCH/game/theme/Organizer.json' with { type: 'json' }
+import PATCH_game_theme_Admin from './forms/PATCH/game/theme/Admin.json' with { type: 'json' }
 import PATCH_game_Organizer from './forms/PATCH/game/Organizer.json' with { type: 'json' }
 import PATCH_game_Admin from './forms/PATCH/game/Admin.json' with { type: 'json' }
+import PATCH_game_venue_Organizer from './forms/PATCH/game/venue/Organizer.json' with { type: 'json' }
+import PATCH_game_venue_Admin from './forms/PATCH/game/venue/Admin.json' with { type: 'json' }
 import PATCH_game_registration_Organizer from './forms/PATCH/game/registration/Organizer.json' with { type: 'json' }
 import PATCH_game_registration_Admin from './forms/PATCH/game/registration/Admin.json' with { type: 'json' }
 import PATCH_city_Organizer from './forms/PATCH/city/Organizer.json' with { type: 'json' }
@@ -73,8 +77,12 @@ export const FormSchema = Object.freeze(
     'PATCH/user/role/Admin': PATCH_user_role_Admin,
     'PATCH/user/Admin': PATCH_user_Admin,
     'PATCH/user/password/Admin': PATCH_user_password_Admin,
+    'PATCH/game/theme/Organizer': PATCH_game_theme_Organizer,
+    'PATCH/game/theme/Admin': PATCH_game_theme_Admin,
     'PATCH/game/Organizer': PATCH_game_Organizer,
     'PATCH/game/Admin': PATCH_game_Admin,
+    'PATCH/game/venue/Organizer': PATCH_game_venue_Organizer,
+    'PATCH/game/venue/Admin': PATCH_game_venue_Admin,
     'PATCH/game/registration/Organizer': PATCH_game_registration_Organizer,
     'PATCH/game/registration/Admin': PATCH_game_registration_Admin,
     'PATCH/city/Organizer': PATCH_city_Organizer,
@@ -124,8 +132,12 @@ export const FormKind = Object.freeze(
     'PATCH/user/role/Admin': 'Schema',
     'PATCH/user/Admin': 'Schema',
     'PATCH/user/password/Admin': 'Schema',
+    'PATCH/game/theme/Organizer': 'Unknown',
+    'PATCH/game/theme/Admin': 'Unknown',
     'PATCH/game/Organizer': 'Schema',
     'PATCH/game/Admin': 'Schema',
+    'PATCH/game/venue/Organizer': 'Unknown',
+    'PATCH/game/venue/Admin': 'Unknown',
     'PATCH/game/registration/Organizer': 'Schema',
     'PATCH/game/registration/Admin': 'Schema',
     'PATCH/city/Organizer': 'Schema',
