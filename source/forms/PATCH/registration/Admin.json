@@ -69,6 +69,10 @@
       "kind": "text"
     },
     {
+      "name": "visibility",
+      "kind": "autocomplete-static"
+    },
+    {
       "name": "ads_from",
       "kind": "string",
       "state": "readonly"
