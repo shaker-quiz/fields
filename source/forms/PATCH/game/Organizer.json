@@ -29,6 +29,10 @@
     {
       "name": "status",
       "kind": "autocomplete-static"
+    },
+    {
+      "name": "visibility",
+      "kind": "autocomplete-static"
     }
   ]
 }
