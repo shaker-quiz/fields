@@ -1,0 +1,33 @@
+{
+  "state": "interactive",
+  "fields": [
+    {
+      "name": "format",
+      "kind": "autocomplete-static"
+    },
+    {
+      "name": "column",
+      "kind": "multiselect-static"
+    },
+    {
+      "name": "registration/status",
+      "kind": "autocomplete-static"
+    },
+    {
+      "name": "registration/lineup",
+      "kind": "autocomplete-static"
+    },
+    {
+      "name": "registration/interval",
+      "kind": "autocomplete-static"
+    },
+    {
+      "name": "registration/range",
+      "kind": "daterange"
+    },
+    {
+      "name": "registration/visibility",
+      "kind": "autocomplete-static"
+    }
+  ]
+}

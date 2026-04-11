@@ -38,6 +38,8 @@ import POST_theme_cover_Organizer from './forms/POST/theme/cover/Organizer.json'
 import POST_theme_Organizer from './forms/POST/theme/Organizer.json' with { type: 'json' }
 import POST_registration_Admin from './forms/POST/registration/Admin.json' with { type: 'json' }
 import POST_registration_Organizer from './forms/POST/registration/Organizer.json' with { type: 'json' }
+import POST_registrations_export_Admin from './forms/POST/registrations/export/Admin.json' with { type: 'json' }
+import POST_registrations_export_Organizer from './forms/POST/registrations/export/Organizer.json' with { type: 'json' }
 import POST_user_role_Admin from './forms/POST/user/role/Admin.json' with { type: 'json' }
 import POST_user_city_Admin from './forms/POST/user/city/Admin.json' with { type: 'json' }
 import POST_user_Admin from './forms/POST/user/Admin.json' with { type: 'json' }
@@ -89,6 +91,8 @@ export const FormSchema = Object.freeze(
     'POST/theme/Organizer': POST_theme_Organizer,
     'POST/registration/Admin': POST_registration_Admin,
     'POST/registration/Organizer': POST_registration_Organizer,
+    'POST/registrations/export/Admin': POST_registrations_export_Admin,
+    'POST/registrations/export/Organizer': POST_registrations_export_Organizer,
     'POST/user/role/Admin': POST_user_role_Admin,
     'POST/user/city/Admin': POST_user_city_Admin,
     'POST/user/Admin': POST_user_Admin,
@@ -142,6 +146,8 @@ export const FormKind = Object.freeze(
     'POST/theme/Organizer': 'Schema',
     'POST/registration/Admin': 'Schema',
     'POST/registration/Organizer': 'Schema',
+    'POST/registrations/export/Admin': 'Schema',
+    'POST/registrations/export/Organizer': 'Schema',
     'POST/user/role/Admin': 'Schema',
     'POST/user/city/Admin': 'Schema',
     'POST/user/Admin': 'Schema',
