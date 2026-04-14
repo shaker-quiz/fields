@@ -2,10 +2,6 @@
   "state": "interactive",
   "fields": [
     {
-      "name": "format",
-      "kind": "autocomplete-static"
-    },
-    {
       "name": "column",
       "kind": "multiselect-static"
     },
@@ -18,7 +14,7 @@
       "kind": "autocomplete-static"
     },
     {
-      "name": "registration/interval",
+      "name": "registration/visibility",
       "kind": "autocomplete-static"
     },
     {
@@ -26,7 +22,7 @@
       "kind": "daterange"
     },
     {
-      "name": "registration/visibility",
+      "name": "format",
       "kind": "autocomplete-static"
     }
   ]
